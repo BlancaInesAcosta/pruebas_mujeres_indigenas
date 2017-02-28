@@ -4,16 +4,21 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://defensor.info:5000/" />
-<title>liderazgo</title>
+<title>resguardo</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">liderazgo</td></tr>
+<tr><td rowspan="1" colspan="3">resguardo</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
 	<td>/mujeresindigenas/sivel2/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Mujeres Indigenas 2.0b2</td>
 	<td></td>
 </tr>
 <tr>
@@ -37,9 +42,9 @@
 	<td></td>
 </tr>
 <tr>
-	<td>select</td>
-	<td>id=caso_victima_attributes_0_victimasjr_attributes_liderazgo</td>
-	<td>label=EN ZONAS DE CONFLICTO</td>
+	<td>type</td>
+	<td>id=caso_victima_attributes_0_victimasjr_attributes_resguardonac</td>
+	<td>dddddddd</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -54,6 +59,16 @@
 <tr>
 	<td>assertConfirmation</td>
 	<td>¿Está seguro(a)?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Mujeres Indigenas 2.0b2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Mujeres Indigenas 2.0b2</td>
 	<td></td>
 </tr>
 
